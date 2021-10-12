@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Noto Sans Mono';
+    font-weight: 800;
+    src: url();
+}
+body{
+    background-color:#3AB370 ;
+}
+.title{
+    color: aliceblue;
+    text-align: center;
+}
+.subtitle{
+    text-align: center;
+    color: aliceblue;
+}
+.big{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.imgdiv{
+ width: 48%;   
+ background-color: aliceblue;
+}
+img{
+    width: 100%;
+}
