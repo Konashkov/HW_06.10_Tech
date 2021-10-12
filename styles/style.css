@@ -5,24 +5,50 @@ body{
 .title{
     color: aliceblue;
     text-align: center;
-    font-family:'NotoSansMono';
+    font-family: 'Noto Sans Mono', monospace; 
     margin: 0;
 }
 .subtitle{
     text-align: center;
-    color: aliceblue;
+    color: lightgrey;
+    font-family: 'Noto Sans Mono', monospace;
     margin: 0;
+    font-weight: 300;
+    font-size: medium;
+    text-decoration: underline;
 }
 .big{
+    padding-top: 20px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     width: 80%;
+    box-sizing: content-box;
 }
 .imgdiv{
  width: 48%;   
+ box-sizing: content-box;
  background-color: aliceblue;
+ 
 }
 img{
     width: 100%;
+}
+.hello{
+    padding-left: 15px;
+}
+.bigtwo{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    box-sizing: content-box;
+}
+p{
+    display: block;
+    padding: 15px;
+}
+span{
+    display: block;
+    color: lightslategrey;
+    font-size: 15px;
 }
