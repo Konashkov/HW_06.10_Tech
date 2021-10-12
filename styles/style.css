@@ -1,18 +1,17 @@
-@font-face {
-    font-family: 'Noto Sans Mono';
-    font-weight: 800;
-    src: url();
-}
+
 body{
     background-color:#3AB370 ;
 }
 .title{
     color: aliceblue;
     text-align: center;
+    font-family:'NotoSansMono';
+    margin: 0;
 }
 .subtitle{
     text-align: center;
     color: aliceblue;
+    margin: 0;
 }
 .big{
     margin: auto;
