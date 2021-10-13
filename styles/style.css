@@ -41,14 +41,22 @@ img{
     display: flex;
     justify-content: space-between;
     padding: 15px;
+    font-weight: 800;
     box-sizing: content-box;
 }
 p{
     display: block;
     padding: 15px;
+    font-family: 'Noto Sans Mono', monospace;
+    margin: 0;
+    font-weight: 100;
 }
 span{
     display: block;
     color: lightslategrey;
     font-size: 15px;
+    font-family: 'Noto Sans Mono', monospace;
+    margin: 0;
+    font-weight: 100;
+
 }
